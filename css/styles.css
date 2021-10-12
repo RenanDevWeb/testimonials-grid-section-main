@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 30px;
+    grid-template-areas:    "card1 card1  card2 card3 "
+                            "card1 card1  card2 card3 "
+                            "card4 card5  card5 card3 "
+                            "card4 card5  card5 card3 "
+                            
+        ;
+
+    margin: 120px 40px;
+}
+
+
+
+.box{
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+
+.box-testemonial1{
+    background-color: hsl(263, 55%, 52%);
+    background-image: url("../images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    grid-area: card1;
+}
+
+.box-testemonial2{
+    background-color: hsl(0, 0%, 81%);
+    grid-area: card2;
+}
+
+.box-testemonial3{
+    background-color: #fff;
+    grid-area: card3;
+}
+
+.box-testemonial4{
+    background-color: #fff;
+    grid-area: card4;
+}
+
+.box-testemonial5{
+    background-color: hsl(219, 29%, 14%);
+    grid-area: card5;
+}
