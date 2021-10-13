@@ -60,13 +60,14 @@ body{
     color: #fff;
 }
 
-.names h3{
+.names h1{
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
-.names h4{
+.names h2{
     color: hsl(0, 0%, 81%);
     opacity: 50%;
+    font-size: 0.8rem;
 }
 .img-quote ::after{
     content: "";
