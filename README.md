@@ -34,11 +34,11 @@ Your users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 
 ## Desktop Design 
-![ Desktop Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
+![ Desktop Design preview for the Testimonials grid section coding challenge](https://github.com/RenanDevWeb/testimonials-grid-section-main/blob/master/images/desktop.png)
 
 
 ## Mobile Design
-![Mobile Design preview for the Testimonials grid section coding challenge](./design/mobile-design.jpg)
+![Mobile Design preview for the Testimonials grid section coding challenge](https://github.com/RenanDevWeb/testimonials-grid-section-main/blob/master/images/Mobile.png)
 
 
 ## Screenshot
