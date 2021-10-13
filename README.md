@@ -34,17 +34,22 @@ Your users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 
 ## Desktop Design 
-![ Desktop Design preview for the Testimonials grid section coding challenge](https://github.com/RenanDevWeb/testimonials-grid-section-main/blob/master/images/desktop.png)
+![ Desktop Design preview for the Testimonials grid section coding challenge](https://github.com/RenanDevWeb/testimonials-grid-section-main/blob/master/design/desktop-design.jpg)
 
 
 ## Mobile Design
-![Mobile Design preview for the Testimonials grid section coding challenge](https://github.com/RenanDevWeb/testimonials-grid-section-main/blob/master/images/Mobile.png)
+![Mobile Design preview for the Testimonials grid section coding challenge](https://github.com/RenanDevWeb/testimonials-grid-section-main/blob/master/design/mobile-design.jpg)
 
 
 ## Screenshot
 
-![Desktop Resolution](../images/desktop-png)
-![Mobile Resolution](../images/Mobile.png)
+
+### Desktop
+![Desktop Resolution](https://github.com/RenanDevWeb/testimonials-grid-section-main/blob/master/images/desktop.png)
+
+
+### Mobile
+![Mobile Resolution](https://github.com/RenanDevWeb/testimonials-grid-section-main/blob/master/images/Mobile.png)
 
 
 ### Links
