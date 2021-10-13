@@ -7,13 +7,12 @@
 body{
     font-size: 13px;
     font-family: 'Barlow Semi Condensed', sans-serif;
-
 }
 
 .container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(4,1fr);
+    grid-template-rows: auto;
     grid-gap: 22px;
     grid-template-areas:    "card1 card1  card2 card3 "
                             "card1 card1  card2 card3 "
@@ -46,7 +45,7 @@ body{
      margin: 14px;
 }
 
-.img-border{
+.box .header .img-border{    
     border: 1px solid  hsl(263, 55%, 52%);
 }
 
@@ -74,7 +73,7 @@ body{
     position: absolute;
     height: 120px;
     width: 120px;
-    top: 16%;
+    top: 18%;
     left:32%;
 }
 
@@ -116,7 +115,7 @@ body{
     font-size: 0.9rem;
 }
 .box-testemonial3{
-    background-color: #fff;
+    background-color: hsl(0, 0%, 100%);
     color: #000;
     grid-area: card3;
     border: 2px solid  hsl(0, 0%, 81%);
@@ -126,7 +125,7 @@ box-shadow: 7px 7px 5px -4px rgba(207,207,207,1);
 }
 
 .box-testemonial4{
-    background-color: #fff;
+    background-color: hsl(0, 0%, 100%);
     grid-area: card4;
     border: 2px solid  hsl(0, 0%, 81%);
     -webkit-box-shadow: 7px 7px 5px -4px rgba(207,207,207,1);
@@ -137,4 +136,38 @@ box-shadow: 7px 7px 5px -4px rgba(207,207,207,1);
 .box-testemonial5{
     background-color: hsl(219, 29%, 14%);
     grid-area: card5;
+}
+
+
+@media (min-width: 345px) and (max-width: 980px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+        grid-template-areas:    "card1 "
+                                "card2  "
+                                "card3  "
+                                "card4  "
+                                "card5  "              
+            ;
+    }
+ 
+    .box{
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .img-quote ::after{
+        content: "";
+        background-image: url("../images/bg-pattern-quotation.svg");
+        opacity: 40%;
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        top: 16%;
+        left: 56%;
+    }
 }
