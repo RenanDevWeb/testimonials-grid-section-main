@@ -61,7 +61,7 @@ body{
     font-weight: 600;
     font-size: 1.2rem;
 }
-.names h5{
+.names h4{
     color: hsl(0, 0%, 81%);
     opacity: 50%;
 }
