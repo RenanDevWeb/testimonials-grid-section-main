@@ -69,17 +69,7 @@ body{
     opacity: 50%;
     font-size: 0.8rem;
 }
-.img-quote ::after{
-    content: "";
-    background-image: url("../images/bg-pattern-quotation.svg");
-    background-size: cover;
-    opacity: 40%;
-    position: absolute;
-    height: 120px;
-    width: 120px;
-    top: 18%;
-    left:32%;
-}
+
 
 .box .hero-title{
     color: #fff;
@@ -143,7 +133,7 @@ box-shadow: 7px 7px 5px -4px rgba(207,207,207,1);
 }
 
 
-@media (min-width: 345px) and (max-width: 980px) {
+@media (min-width: 375px) and (max-width: 1440px) {
     .container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -162,16 +152,5 @@ box-shadow: 7px 7px 5px -4px rgba(207,207,207,1);
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-    }
-
-    .img-quote ::after{
-        content: "";
-        background-image: url("../images/bg-pattern-quotation.svg");
-        opacity: 40%;
-        position: absolute;
-        height: 100px;
-        width: 100px;
-        top: 16%;
-        left: 56%;
     }
 }
